@@ -1,19 +1,22 @@
 # seia-laravel-pages
 
-A pages module for use with https://github.com/philsown/seia-laravel-core, an implementation of http://philip.greenspun.com/siea/ in Laravel 5.1.
+A pages module for use with https://github.com/philsown/seia-laravel-core, which is an implementation of http://philip.greenspun.com/siea/ in Laravel 5.1.
 
-This adds "pages" functionality.
+This adds "pages" functionality, building on Seia\Core's Content and Route models.
 
 ## Installation
 
 Install seia-laravel-core, which is a Laravel 5.1 app in its own right.
 
-Then, in your seia-laravel-core application, do `composer require philsown/seia-laravel-pages`.
+Then, in your seia-laravel-core application, do this:
 
-Add the service provider to your `config/app.php` 'providers' array.
+`composer require philsown/seia-laravel-pages`
+
+Add the service provider to your `config/app.php` 'providers' array, like so:
 
 ```lang=php
 <?php
+// config/app.php
 
 return [
 
@@ -25,4 +28,6 @@ return [
 ];
 ```
 
-Publish files for the package. In your seia-laravel-core application, do `php artisan publish --provider="Seia\Pages\Providers\SeiaPagesServiceProvider"`.
+Publish files for the package. In your seia-laravel-core application, do this:
+
+`php artisan vendor:publish --provider="Seia\Pages\Providers\SeiaPagesServiceProvider"
