@@ -1,0 +1,12 @@
+{
+    "name": "philsown/seia-laravel-pages",
+    "description": "A pages module for philsown/seia-laravel-core.",
+    "keywords": ["laravel", "seia", "philg"],
+    "license": "MIT",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Seia\\Pages\\": "src"
+        }
+    }
+}
