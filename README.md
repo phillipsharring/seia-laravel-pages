@@ -1,0 +1,1 @@
+# seia-laravel-pages
