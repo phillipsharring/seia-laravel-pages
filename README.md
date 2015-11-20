@@ -30,4 +30,4 @@ return [
 
 Publish files for the package. In your seia-laravel-core application, do this:
 
-`php artisan vendor:publish --provider="Seia\Pages\Providers\SeiaPagesServiceProvider"
+`php artisan vendor:publish --provider="Seia\Pages\Providers\SeiaPagesServiceProvider"`
