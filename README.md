@@ -13,10 +13,9 @@ Then composer require philsown/seia-laravel-pages.
 Add the service provider to your config/app.php 'providers' array.
 
 ```lang=php
-
+<?php
     $providers = [
         // ...
         Seia\Pages\Providers\SeiaPagesServiceProvider::class,
     ];
-
 ```
