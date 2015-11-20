@@ -8,7 +8,18 @@ This adds "pages" functionality, building on Seia\Core's Content and Route model
 
 Install seia-laravel-core, which is a Laravel 5.1 app in its own right.
 
-Then, in your seia-laravel-core application, do this:
+Next, in your seia-laravel-core application, add this to your composer.json file:
+
+```lang=json
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/philsown/seia-laravel-pages"
+        }
+    ],
+```
+
+Then, from the command line or terminal, do this:
 
 `composer require philsown/seia-laravel-pages`
 
