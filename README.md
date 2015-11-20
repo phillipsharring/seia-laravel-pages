@@ -14,8 +14,13 @@ Add the service provider to your config/app.php 'providers' array.
 
 ```lang=php
 <?php
+
+return [
+    // ...
     $providers = [
         // ...
         Seia\Pages\Providers\SeiaPagesServiceProvider::class,
     ];
+    // ...
+];
 ```
